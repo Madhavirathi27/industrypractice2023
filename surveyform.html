@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+<marquee style="background-color:rgb(243, 240, 219);"><h1>Fill the form before 10:00 p.m.</h1></marquee>
+<style>
+h1
+{
+text-align:center;
+color: rgba(111, 12, 12, 0.258);
+font-family:Lucida;
+font-size:30;
+}
+fieldset
+{
+background-color:rgb(243, 240, 219);
+border:2px solid black;
+padding-top:20px;
+padding-bottom:20px;
+padding-right: 25 px ;
+padding-left:25px;
+text-align:left;
+}
+</style>
+</head>
+<body>
+
+<h1>Survey Form</h1>
+<fieldset>
+<h2>Personal Information</h2><br>
+<label>Name:</label>
+<input type="Name"><br><br>
+<label>Email:</label>
+<input type="Email"><br><br>
+<label for="Age">Age:</label>
+<input type="Number"><br><br>
+<label for="Password:">Password:</label>
+<input type="Password"><br><br>
+<label for="Confirm Password:">Confirm Password:</label>
+<input type="Password"><br><br>
+<label for="option">Which option best describe your current role?</label>
+<select id="option">
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="employee">Employee</option>
+</select><br><br>
+<label for="course">How likely is that you would recommend a friend?</label><br><br>
+   <label for="course">
+<input type="radio" name="course" id="course">Definitely<br><br>
+</label>
+<label for="course">
+<input type="radio" name="course" id="course">May Be<br><br>
+</label>
+<label for="course">
+<input type="radio" name="course" id="course">Not Sure<br><br>
+</label>
+<label for="option">Things that should be improved in future</label><br><br>
+<input type="checkbox">
+<label>Front End Projects<br></label><br><br>
+<input type="checkbox">
+<label>Back End Projects<br></label><br><br>
+<input type="checkbox">
+<label>Data Visualisation<br></label><br><br>
+<button type="submit">Submit</button>
+<button type="=reset">Reset</button><br>
+</fieldset>
+</body>
+</html>
