@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <marquee >Fill the form before due date(15/7/2023)</marquee>
+</head>
+<body>
+    <div><form action="./thanku.html">
+        <fieldset>
+
+       <legend>Personal Information</legend>
+        <label>Name:</label><input><br><br>
+        <label>Email:</label>
+        <input type="email"><br><BR>
+            <label for="password">password;</label>
+            <input type="password" ><br><br>
+            <input type="checkbox">
+            <label>I accept terms and conditions</label><br><br>
+            <label for="DOB">Date Of Birth</label>
+            <input type="Date"  id="dob" required><br><br>
+            <label for="Phone">Mobile no:</label>
+            <input type="Number"  id="Phone" required><br><br>
+            <label for="Profile pic">Profile Pic:</label>
+            <input type="File"  id="Profile pic" required><br><br>
+            
+        </fieldset>
+
+        <br>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Prefrences</legend>
+            <label for="Color">favorite color:</label>
+            <input type="color" id="color"><br><br>
+            <label for="Fruit">Fruit:</label>
+            <select id="Fruit">
+               
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="fig">Fig</option>
+            </select><br><br>
+                
+
+                <label for="comments">comments:</label>
+                <textarea name="comments"  cols="18" rows="1" placeholder="enter comments"></textarea><br><br>
+                <input type="checkbox">
+                <label>Subscribe to Newsletter</label><br><br>
+                <label for="gender">
+                    <input type="radio" name="gender" id="male">
+                    male
+                </label>
+                <label for="gender">
+                    <input type="radio" name="gender" id="female">
+                    female
+                </label>
+                <label for="gender">
+                    <input type="radio" name="gender" id="others">
+                    others
+                </label><br><br>
+                <label for="Skills">Skills:</label>
+                <input type="text" List="skills-list" id="skills" required>
+                <datalist id="skills-list">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="Python">
+                </datalist>
+                <br><br>
+                <button type="submit">submit</button>
+                <button type="=reset">reset</button><br>
+        </fieldset>
+    </form><div>
+</body>
+</html>
